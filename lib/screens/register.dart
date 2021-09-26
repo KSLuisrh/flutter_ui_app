@@ -1,18 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ui_app/screens/register.dart';
 
-class Login extends StatelessWidget {
-  const Login({Key? key}) : super(key: key);
+class Register extends StatelessWidget {
+  const Register({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: _login(context),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          'REGISTER',
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Color(0xffD02025),
+      ),
+      body: _register(context),
     );
   }
 
-  _login(BuildContext context) {
+  _register(BuildContext context) {
     return SingleChildScrollView(
       reverse: true,
       child: Padding(
@@ -22,14 +28,14 @@ class Login extends StatelessWidget {
           children: [
             Image(
               image: AssetImage('assets/logo.png'),
-              width: 250,
+              width: 230,
             ),
             Column(
               children: [
                 TextField(
                   decoration: InputDecoration(
                       filled: true,
-                      hintText: 'Email',
+                      hintText: 'Full Name',
                       hintStyle: TextStyle(color: Color(0xff021634)),
                       enabledBorder: UnderlineInputBorder(
                         borderSide:
@@ -40,6 +46,22 @@ class Login extends StatelessWidget {
                             BorderSide(color: Color(0xff021634), width: 5),
                       )),
                 ),
+                SizedBox(
+                  height: 20,
+                ),
+                TextField(
+                    decoration: InputDecoration(
+                        filled: true,
+                        hintText: 'Email',
+                        hintStyle: TextStyle(color: Color(0xff021634)),
+                        enabledBorder: UnderlineInputBorder(
+                          borderSide:
+                              BorderSide(color: Color(0xff021634), width: 5),
+                        ),
+                        focusedBorder: UnderlineInputBorder(
+                          borderSide:
+                              BorderSide(color: Color(0xff021634), width: 5),
+                        ))),
                 SizedBox(
                   height: 20,
                 ),
@@ -66,18 +88,18 @@ class Login extends StatelessWidget {
                     primary: Color(0xffD02025),
                     minimumSize: Size(double.infinity, 50)),
                 onPressed: () {},
-                child: Text('Login')),
+                child: Text('Register')),
             SizedBox(
               height: 20,
             ),
             GestureDetector(
               child: Text(
-                'Create New Account',
+                'Back to Login',
                 style: TextStyle(color: Color(0xff021634), fontSize: 15),
               ),
               onTap: () {
                 print('Register form');
-                Get.to(Register());
+                Get.back();
               },
             ),
             SizedBox(
