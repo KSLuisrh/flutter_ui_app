@@ -58,7 +58,7 @@ class Cart extends StatelessWidget {
             ElevatedButton(
                 style: ElevatedButton.styleFrom(
                     minimumSize: Size(double.infinity, 50),
-                    primary: Color(0xffD02025)),
+                    primary: Color(0xff021634)),
                 onPressed: () {},
                 child: Text('Checkout (\$300)'))
           ],
