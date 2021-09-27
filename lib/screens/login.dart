@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:ui_app/screens/home.dart';
 import 'package:ui_app/screens/register.dart';
 
 class Login extends StatelessWidget {
@@ -65,7 +66,9 @@ class Login extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                     primary: Color(0xffD02025),
                     minimumSize: Size(double.infinity, 50)),
-                onPressed: () {},
+                onPressed: () {
+                  Get.off(Home());
+                },
                 child: Text('Login')),
             SizedBox(
               height: 20,
