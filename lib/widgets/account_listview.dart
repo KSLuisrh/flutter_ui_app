@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:ui_app/screens/profile.dart';
 
 class AccountListView extends StatelessWidget {
   const AccountListView({Key? key}) : super(key: key);
@@ -23,7 +25,12 @@ class AccountListView extends StatelessWidget {
               )
             ],
           ),
-          trailing: Text('Edit'),
+          trailing: GestureDetector(
+            child: Text('Edit'),
+            onTap: () {
+              Get.to(Profile());
+            },
+          ),
         ),
         SwitchListTile(
             activeColor: Color(0xff021634),

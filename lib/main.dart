@@ -22,6 +22,9 @@ class MyApp extends StatelessWidget {
         ),
         body: Login(),
       ),
+      getPages: [
+        GetPage(name: '/', page: () => Login()),
+      ],
     );
   }
 }
