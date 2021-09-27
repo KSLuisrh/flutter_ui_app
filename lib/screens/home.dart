@@ -14,13 +14,14 @@ class _HomeState extends State<Home> {
   int _currentIndex = 0;
 
   final List _children = [HomeContent(), Cart(), Account()];
+  final List _titleAppBar = ['GAMINGCOM', 'Cart - 4 items', 'Account'];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'GAMINGCOM',
+          '${this._titleAppBar[this._currentIndex]}',
           style: TextStyle(color: Colors.white),
         ),
         backgroundColor: Color(0xffD02025),
