@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:ui_app/screens/orders.dart';
 import 'package:ui_app/screens/profile.dart';
 
 class AccountListView extends StatelessWidget {
@@ -77,9 +78,14 @@ class AccountListView extends StatelessWidget {
               )
             ],
           ),
-          trailing: Icon(
-            Icons.arrow_forward,
-            color: Color(0xff021634),
+          trailing: GestureDetector(
+            child: Icon(
+              Icons.arrow_forward,
+              color: Color(0xff021634),
+            ),
+            onTap: () {
+              Get.to(Orders());
+            },
           ),
         ),
         ListTile(
