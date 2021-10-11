@@ -6,6 +6,8 @@
     <td><img src="https://res.cloudinary.com/dycxesufw/image/upload/v1632727663/tgcbmbxtsbv1xld0qltg.jpg" width=270 height=480></td>
     <td><img src="https://res.cloudinary.com/dycxesufw/image/upload/v1632727663/dffggu5nh4rkeljixecg.jpg" width=270 height=480></td>
     <td><img src="https://res.cloudinary.com/dycxesufw/image/upload/v1632727663/mdmnzldsokxouo6r4meb.jpg" width=270 height=480></td>
+  </tr>
+  <tr>
     <td><img src="https://res.cloudinary.com/dycxesufw/image/upload/v1632727663/rexpq1esvfiphjnokzfs.jpg" width=270 height=480></td>
     <td><img src="https://res.cloudinary.com/dycxesufw/image/upload/v1632727663/xwk8jwefvdjbzwkbbmib.jpg" width=270 height=480></td>
     <td><img src="https://res.cloudinary.com/dycxesufw/image/upload/v1632727663/hj2ojrjnktgattzymp7g.jpg" width=270 height=480></td>
