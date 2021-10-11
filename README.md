@@ -12,7 +12,6 @@
     <td><img src="https://res.cloudinary.com/dycxesufw/image/upload/v1632727663/xwk8jwefvdjbzwkbbmib.jpg" width=270 height=480></td>
     <td><img src="https://res.cloudinary.com/dycxesufw/image/upload/v1632727663/hj2ojrjnktgattzymp7g.jpg" width=270 height=480></td>
     <td><img src="https://res.cloudinary.com/dycxesufw/image/upload/v1632727663/rjy4c3euku6qkgihyqiu.jpg" width=270 height=480></td>
-    <td><img src="https://res.cloudinary.com/dycxesufw/image/upload/v1632727663/kdcghropihg4ygo2unc8.jpg" width=270 height=480></td>
   </tr>
   <tr>
     <td><img src="https://res.cloudinary.com/dycxesufw/image/upload/v1632727663/kdcghropihg4ygo2unc8.jpg" width=270 height=480></td>
